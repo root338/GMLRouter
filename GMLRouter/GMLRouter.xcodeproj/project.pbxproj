@@ -1,0 +1,1082 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18F2CA152457CBFA002B23D9 /* GMLRouterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F2CA142457CBFA002B23D9 /* GMLRouterTests.swift */; };
+		18F2CA202457CBFA002B23D9 /* GMLRouterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F2CA1F2457CBFA002B23D9 /* GMLRouterUITests.swift */; };
+		18F2CA362457CC2B002B23D9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F2CA2E2457CC2B002B23D9 /* ViewController.swift */; };
+		18F2CA372457CC2B002B23D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18F2CA2F2457CC2B002B23D9 /* Assets.xcassets */; };
+		18F2CA382457CC2B002B23D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18F2CA302457CC2B002B23D9 /* Main.storyboard */; };
+		18F2CA392457CC2B002B23D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F2CA332457CC2B002B23D9 /* AppDelegate.swift */; };
+		18F2CA3A2457CC2B002B23D9 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 18F2CA342457CC2B002B23D9 /* Info.plist */; };
+		18F2CA3C2457CCC5002B23D9 /* GMLRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F2CA3B2457CCC5002B23D9 /* GMLRouter.swift */; };
+		18F2CA4C24581002002B23D9 /* GMLRouterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F2CA4B24581002002B23D9 /* GMLRouterProtocol.swift */; };
+		18F2CA4E24581242002B23D9 /* GMLRouterTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F2CA4D24581242002B23D9 /* GMLRouterTask.swift */; };
+		18F2CA502458167F002B23D9 /* GMLRouterResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F2CA4F2458167F002B23D9 /* GMLRouterResult.swift */; };
+		18F2CA5224581B13002B23D9 /* GMLRouterDefines.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F2CA5124581B13002B23D9 /* GMLRouterDefines.swift */; };
+		18F2CA5424581C31002B23D9 /* GMLRouterDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F2CA5324581C31002B23D9 /* GMLRouterDelegate.swift */; };
+		18F2CA58245829C5002B23D9 /* GMLRouterServiceRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F2CA57245829C5002B23D9 /* GMLRouterServiceRule.swift */; };
+		18F2CA6024582A0E002B23D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F2CA5F24582A0E002B23D9 /* AppDelegate.swift */; };
+		18F2CA6224582A0E002B23D9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F2CA6124582A0E002B23D9 /* SceneDelegate.swift */; };
+		18F2CA6424582A0E002B23D9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F2CA6324582A0E002B23D9 /* ViewController.swift */; };
+		18F2CA6724582A0E002B23D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18F2CA6524582A0E002B23D9 /* Main.storyboard */; };
+		18F2CA6924582A14002B23D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18F2CA6824582A14002B23D9 /* Assets.xcassets */; };
+		18F2CA6C24582A14002B23D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18F2CA6A24582A14002B23D9 /* LaunchScreen.storyboard */; };
+		18F2CA7724582A15002B23D9 /* GMLRouterForIphoneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F2CA7624582A15002B23D9 /* GMLRouterForIphoneTests.swift */; };
+		18F2CA8224582A16002B23D9 /* GMLRouterForIphoneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F2CA8124582A16002B23D9 /* GMLRouterForIphoneUITests.swift */; };
+		18F2CA8D24582A2E002B23D9 /* GMLRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F2CA3B2457CCC5002B23D9 /* GMLRouter.swift */; };
+		18F2CA8E24582A34002B23D9 /* GMLRouterDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F2CA5324581C31002B23D9 /* GMLRouterDelegate.swift */; };
+		18F2CA8F24582A34002B23D9 /* GMLRouterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F2CA4B24581002002B23D9 /* GMLRouterProtocol.swift */; };
+		18F2CA9024582A34002B23D9 /* GMLRouterDefines.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F2CA5124581B13002B23D9 /* GMLRouterDefines.swift */; };
+		18F2CA9124582A34002B23D9 /* GMLRouterTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F2CA4D24581242002B23D9 /* GMLRouterTask.swift */; };
+		18F2CA9224582A34002B23D9 /* GMLRouterServiceRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F2CA57245829C5002B23D9 /* GMLRouterServiceRule.swift */; };
+		18F2CA9324582A34002B23D9 /* GMLRouterResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F2CA4F2458167F002B23D9 /* GMLRouterResult.swift */; };
+		18F2CA9924582FFD002B23D9 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F2CA9824582FFD002B23D9 /* HomeVC.swift */; };
+		18F2CA9B2458301C002B23D9 /* MyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F2CA9A2458301C002B23D9 /* MyVC.swift */; };
+		18F2CA9D2458306D002B23D9 /* HomeRouterService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F2CA9C2458306D002B23D9 /* HomeRouterService.swift */; };
+		18F2CA9F24583085002B23D9 /* MyRouterService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F2CA9E24583085002B23D9 /* MyRouterService.swift */; };
+		18F2CAA124590EA7002B23D9 /* GMLUIRouterTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F2CAA024590EA6002B23D9 /* GMLUIRouterTask.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18F2CA112457CBFA002B23D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18F2C9F62457CBF3002B23D9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18F2C9FD2457CBF3002B23D9;
+			remoteInfo = GMLRouter;
+		};
+		18F2CA1C2457CBFA002B23D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18F2C9F62457CBF3002B23D9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18F2C9FD2457CBF3002B23D9;
+			remoteInfo = GMLRouter;
+		};
+		18F2CA7324582A15002B23D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18F2C9F62457CBF3002B23D9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18F2CA5C24582A0D002B23D9;
+			remoteInfo = GMLRouterForIphone;
+		};
+		18F2CA7E24582A16002B23D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18F2C9F62457CBF3002B23D9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18F2CA5C24582A0D002B23D9;
+			remoteInfo = GMLRouterForIphone;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18F2C9FE2457CBF3002B23D9 /* GMLRouter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GMLRouter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18F2CA102457CBFA002B23D9 /* GMLRouterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GMLRouterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18F2CA142457CBFA002B23D9 /* GMLRouterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GMLRouterTests.swift; sourceTree = "<group>"; };
+		18F2CA162457CBFA002B23D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18F2CA1B2457CBFA002B23D9 /* GMLRouterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GMLRouterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18F2CA1F2457CBFA002B23D9 /* GMLRouterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GMLRouterUITests.swift; sourceTree = "<group>"; };
+		18F2CA212457CBFA002B23D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18F2CA2E2457CC2B002B23D9 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		18F2CA2F2457CC2B002B23D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18F2CA312457CC2B002B23D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18F2CA322457CC2B002B23D9 /* GMLRouter.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = GMLRouter.entitlements; sourceTree = "<group>"; };
+		18F2CA332457CC2B002B23D9 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		18F2CA342457CC2B002B23D9 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18F2CA3B2457CCC5002B23D9 /* GMLRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GMLRouter.swift; sourceTree = "<group>"; };
+		18F2CA4B24581002002B23D9 /* GMLRouterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GMLRouterProtocol.swift; sourceTree = "<group>"; };
+		18F2CA4D24581242002B23D9 /* GMLRouterTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GMLRouterTask.swift; sourceTree = "<group>"; };
+		18F2CA4F2458167F002B23D9 /* GMLRouterResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GMLRouterResult.swift; sourceTree = "<group>"; };
+		18F2CA5124581B13002B23D9 /* GMLRouterDefines.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GMLRouterDefines.swift; sourceTree = "<group>"; };
+		18F2CA5324581C31002B23D9 /* GMLRouterDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GMLRouterDelegate.swift; sourceTree = "<group>"; };
+		18F2CA56245827C8002B23D9 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		18F2CA57245829C5002B23D9 /* GMLRouterServiceRule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GMLRouterServiceRule.swift; sourceTree = "<group>"; };
+		18F2CA5D24582A0D002B23D9 /* GMLRouterForIphone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GMLRouterForIphone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18F2CA5F24582A0E002B23D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		18F2CA6124582A0E002B23D9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		18F2CA6324582A0E002B23D9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		18F2CA6624582A0E002B23D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18F2CA6824582A14002B23D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18F2CA6B24582A14002B23D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18F2CA6D24582A14002B23D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18F2CA7224582A15002B23D9 /* GMLRouterForIphoneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GMLRouterForIphoneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18F2CA7624582A15002B23D9 /* GMLRouterForIphoneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GMLRouterForIphoneTests.swift; sourceTree = "<group>"; };
+		18F2CA7824582A15002B23D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18F2CA7D24582A15002B23D9 /* GMLRouterForIphoneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GMLRouterForIphoneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18F2CA8124582A16002B23D9 /* GMLRouterForIphoneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GMLRouterForIphoneUITests.swift; sourceTree = "<group>"; };
+		18F2CA8324582A16002B23D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18F2CA9824582FFD002B23D9 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		18F2CA9A2458301C002B23D9 /* MyVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyVC.swift; sourceTree = "<group>"; };
+		18F2CA9C2458306D002B23D9 /* HomeRouterService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRouterService.swift; sourceTree = "<group>"; };
+		18F2CA9E24583085002B23D9 /* MyRouterService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyRouterService.swift; sourceTree = "<group>"; };
+		18F2CAA024590EA6002B23D9 /* GMLUIRouterTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GMLUIRouterTask.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18F2C9FB2457CBF3002B23D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18F2CA0D2457CBFA002B23D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18F2CA182457CBFA002B23D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18F2CA5A24582A0D002B23D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18F2CA6F24582A15002B23D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18F2CA7A24582A15002B23D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18F2C9F52457CBF3002B23D9 = {
+			isa = PBXGroup;
+			children = (
+				18F2CA352457CC2B002B23D9 /* GMLRouter */,
+				18F2CA2D2457CC2B002B23D9 /* GMLRouterDemo */,
+				18F2CA132457CBFA002B23D9 /* GMLRouterTests */,
+				18F2CA1E2457CBFA002B23D9 /* GMLRouterUITests */,
+				18F2CA5E24582A0E002B23D9 /* GMLRouterForIphone */,
+				18F2CA7524582A15002B23D9 /* GMLRouterForIphoneTests */,
+				18F2CA8024582A16002B23D9 /* GMLRouterForIphoneUITests */,
+				18F2C9FF2457CBF3002B23D9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18F2C9FF2457CBF3002B23D9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18F2C9FE2457CBF3002B23D9 /* GMLRouter.app */,
+				18F2CA102457CBFA002B23D9 /* GMLRouterTests.xctest */,
+				18F2CA1B2457CBFA002B23D9 /* GMLRouterUITests.xctest */,
+				18F2CA5D24582A0D002B23D9 /* GMLRouterForIphone.app */,
+				18F2CA7224582A15002B23D9 /* GMLRouterForIphoneTests.xctest */,
+				18F2CA7D24582A15002B23D9 /* GMLRouterForIphoneUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18F2CA132457CBFA002B23D9 /* GMLRouterTests */ = {
+			isa = PBXGroup;
+			children = (
+				18F2CA142457CBFA002B23D9 /* GMLRouterTests.swift */,
+				18F2CA162457CBFA002B23D9 /* Info.plist */,
+			);
+			path = GMLRouterTests;
+			sourceTree = "<group>";
+		};
+		18F2CA1E2457CBFA002B23D9 /* GMLRouterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				18F2CA1F2457CBFA002B23D9 /* GMLRouterUITests.swift */,
+				18F2CA212457CBFA002B23D9 /* Info.plist */,
+			);
+			path = GMLRouterUITests;
+			sourceTree = "<group>";
+		};
+		18F2CA2D2457CC2B002B23D9 /* GMLRouterDemo */ = {
+			isa = PBXGroup;
+			children = (
+				18F2CA2E2457CC2B002B23D9 /* ViewController.swift */,
+				18F2CA2F2457CC2B002B23D9 /* Assets.xcassets */,
+				18F2CA302457CC2B002B23D9 /* Main.storyboard */,
+				18F2CA322457CC2B002B23D9 /* GMLRouter.entitlements */,
+				18F2CA332457CC2B002B23D9 /* AppDelegate.swift */,
+				18F2CA342457CC2B002B23D9 /* Info.plist */,
+			);
+			path = GMLRouterDemo;
+			sourceTree = "<group>";
+		};
+		18F2CA352457CC2B002B23D9 /* GMLRouter */ = {
+			isa = PBXGroup;
+			children = (
+				18F2CA3B2457CCC5002B23D9 /* GMLRouter.swift */,
+				18F2CA5324581C31002B23D9 /* GMLRouterDelegate.swift */,
+				18F2CA4B24581002002B23D9 /* GMLRouterProtocol.swift */,
+				18F2CA5124581B13002B23D9 /* GMLRouterDefines.swift */,
+				18F2CA4D24581242002B23D9 /* GMLRouterTask.swift */,
+				18F2CAA024590EA6002B23D9 /* GMLUIRouterTask.swift */,
+				18F2CA57245829C5002B23D9 /* GMLRouterServiceRule.swift */,
+				18F2CA4F2458167F002B23D9 /* GMLRouterResult.swift */,
+				18F2CA56245827C8002B23D9 /* README.md */,
+			);
+			path = GMLRouter;
+			sourceTree = "<group>";
+		};
+		18F2CA5E24582A0E002B23D9 /* GMLRouterForIphone */ = {
+			isa = PBXGroup;
+			children = (
+				18F2CA5F24582A0E002B23D9 /* AppDelegate.swift */,
+				18F2CA6124582A0E002B23D9 /* SceneDelegate.swift */,
+				18F2CA9524582FC4002B23D9 /* Module */,
+				18F2CA6324582A0E002B23D9 /* ViewController.swift */,
+				18F2CA6524582A0E002B23D9 /* Main.storyboard */,
+				18F2CA6824582A14002B23D9 /* Assets.xcassets */,
+				18F2CA6A24582A14002B23D9 /* LaunchScreen.storyboard */,
+				18F2CA6D24582A14002B23D9 /* Info.plist */,
+			);
+			path = GMLRouterForIphone;
+			sourceTree = "<group>";
+		};
+		18F2CA7524582A15002B23D9 /* GMLRouterForIphoneTests */ = {
+			isa = PBXGroup;
+			children = (
+				18F2CA7624582A15002B23D9 /* GMLRouterForIphoneTests.swift */,
+				18F2CA7824582A15002B23D9 /* Info.plist */,
+			);
+			path = GMLRouterForIphoneTests;
+			sourceTree = "<group>";
+		};
+		18F2CA8024582A16002B23D9 /* GMLRouterForIphoneUITests */ = {
+			isa = PBXGroup;
+			children = (
+				18F2CA8124582A16002B23D9 /* GMLRouterForIphoneUITests.swift */,
+				18F2CA8324582A16002B23D9 /* Info.plist */,
+			);
+			path = GMLRouterForIphoneUITests;
+			sourceTree = "<group>";
+		};
+		18F2CA9524582FC4002B23D9 /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				18F2CA9724582FD6002B23D9 /* Home */,
+				18F2CA9624582FCD002B23D9 /* My */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		18F2CA9624582FCD002B23D9 /* My */ = {
+			isa = PBXGroup;
+			children = (
+				18F2CA9A2458301C002B23D9 /* MyVC.swift */,
+				18F2CA9E24583085002B23D9 /* MyRouterService.swift */,
+			);
+			path = My;
+			sourceTree = "<group>";
+		};
+		18F2CA9724582FD6002B23D9 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				18F2CA9824582FFD002B23D9 /* HomeVC.swift */,
+				18F2CA9C2458306D002B23D9 /* HomeRouterService.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18F2C9FD2457CBF3002B23D9 /* GMLRouter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18F2CA242457CBFA002B23D9 /* Build configuration list for PBXNativeTarget "GMLRouter" */;
+			buildPhases = (
+				18F2C9FA2457CBF3002B23D9 /* Sources */,
+				18F2C9FB2457CBF3002B23D9 /* Frameworks */,
+				18F2C9FC2457CBF3002B23D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GMLRouter;
+			productName = GMLRouter;
+			productReference = 18F2C9FE2457CBF3002B23D9 /* GMLRouter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18F2CA0F2457CBFA002B23D9 /* GMLRouterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18F2CA272457CBFA002B23D9 /* Build configuration list for PBXNativeTarget "GMLRouterTests" */;
+			buildPhases = (
+				18F2CA0C2457CBFA002B23D9 /* Sources */,
+				18F2CA0D2457CBFA002B23D9 /* Frameworks */,
+				18F2CA0E2457CBFA002B23D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18F2CA122457CBFA002B23D9 /* PBXTargetDependency */,
+			);
+			name = GMLRouterTests;
+			productName = GMLRouterTests;
+			productReference = 18F2CA102457CBFA002B23D9 /* GMLRouterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		18F2CA1A2457CBFA002B23D9 /* GMLRouterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18F2CA2A2457CBFA002B23D9 /* Build configuration list for PBXNativeTarget "GMLRouterUITests" */;
+			buildPhases = (
+				18F2CA172457CBFA002B23D9 /* Sources */,
+				18F2CA182457CBFA002B23D9 /* Frameworks */,
+				18F2CA192457CBFA002B23D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18F2CA1D2457CBFA002B23D9 /* PBXTargetDependency */,
+			);
+			name = GMLRouterUITests;
+			productName = GMLRouterUITests;
+			productReference = 18F2CA1B2457CBFA002B23D9 /* GMLRouterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		18F2CA5C24582A0D002B23D9 /* GMLRouterForIphone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18F2CA8424582A16002B23D9 /* Build configuration list for PBXNativeTarget "GMLRouterForIphone" */;
+			buildPhases = (
+				18F2CA5924582A0D002B23D9 /* Sources */,
+				18F2CA5A24582A0D002B23D9 /* Frameworks */,
+				18F2CA5B24582A0D002B23D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GMLRouterForIphone;
+			productName = GMLRouterForIphone;
+			productReference = 18F2CA5D24582A0D002B23D9 /* GMLRouterForIphone.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18F2CA7124582A15002B23D9 /* GMLRouterForIphoneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18F2CA8724582A16002B23D9 /* Build configuration list for PBXNativeTarget "GMLRouterForIphoneTests" */;
+			buildPhases = (
+				18F2CA6E24582A15002B23D9 /* Sources */,
+				18F2CA6F24582A15002B23D9 /* Frameworks */,
+				18F2CA7024582A15002B23D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18F2CA7424582A15002B23D9 /* PBXTargetDependency */,
+			);
+			name = GMLRouterForIphoneTests;
+			productName = GMLRouterForIphoneTests;
+			productReference = 18F2CA7224582A15002B23D9 /* GMLRouterForIphoneTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		18F2CA7C24582A15002B23D9 /* GMLRouterForIphoneUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18F2CA8A24582A16002B23D9 /* Build configuration list for PBXNativeTarget "GMLRouterForIphoneUITests" */;
+			buildPhases = (
+				18F2CA7924582A15002B23D9 /* Sources */,
+				18F2CA7A24582A15002B23D9 /* Frameworks */,
+				18F2CA7B24582A15002B23D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18F2CA7F24582A16002B23D9 /* PBXTargetDependency */,
+			);
+			name = GMLRouterForIphoneUITests;
+			productName = GMLRouterForIphoneUITests;
+			productReference = 18F2CA7D24582A15002B23D9 /* GMLRouterForIphoneUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18F2C9F62457CBF3002B23D9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = GML;
+				TargetAttributes = {
+					18F2C9FD2457CBF3002B23D9 = {
+						CreatedOnToolsVersion = 11.4;
+					};
+					18F2CA0F2457CBFA002B23D9 = {
+						CreatedOnToolsVersion = 11.4;
+						TestTargetID = 18F2C9FD2457CBF3002B23D9;
+					};
+					18F2CA1A2457CBFA002B23D9 = {
+						CreatedOnToolsVersion = 11.4;
+						TestTargetID = 18F2C9FD2457CBF3002B23D9;
+					};
+					18F2CA5C24582A0D002B23D9 = {
+						CreatedOnToolsVersion = 11.4;
+					};
+					18F2CA7124582A15002B23D9 = {
+						CreatedOnToolsVersion = 11.4;
+						TestTargetID = 18F2CA5C24582A0D002B23D9;
+					};
+					18F2CA7C24582A15002B23D9 = {
+						CreatedOnToolsVersion = 11.4;
+						TestTargetID = 18F2CA5C24582A0D002B23D9;
+					};
+				};
+			};
+			buildConfigurationList = 18F2C9F92457CBF3002B23D9 /* Build configuration list for PBXProject "GMLRouter" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18F2C9F52457CBF3002B23D9;
+			productRefGroup = 18F2C9FF2457CBF3002B23D9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18F2C9FD2457CBF3002B23D9 /* GMLRouter */,
+				18F2CA0F2457CBFA002B23D9 /* GMLRouterTests */,
+				18F2CA1A2457CBFA002B23D9 /* GMLRouterUITests */,
+				18F2CA5C24582A0D002B23D9 /* GMLRouterForIphone */,
+				18F2CA7124582A15002B23D9 /* GMLRouterForIphoneTests */,
+				18F2CA7C24582A15002B23D9 /* GMLRouterForIphoneUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18F2C9FC2457CBF3002B23D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18F2CA372457CC2B002B23D9 /* Assets.xcassets in Resources */,
+				18F2CA382457CC2B002B23D9 /* Main.storyboard in Resources */,
+				18F2CA3A2457CC2B002B23D9 /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18F2CA0E2457CBFA002B23D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18F2CA192457CBFA002B23D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18F2CA5B24582A0D002B23D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18F2CA6C24582A14002B23D9 /* LaunchScreen.storyboard in Resources */,
+				18F2CA6924582A14002B23D9 /* Assets.xcassets in Resources */,
+				18F2CA6724582A0E002B23D9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18F2CA7024582A15002B23D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18F2CA7B24582A15002B23D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18F2C9FA2457CBF3002B23D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18F2CA3C2457CCC5002B23D9 /* GMLRouter.swift in Sources */,
+				18F2CA4C24581002002B23D9 /* GMLRouterProtocol.swift in Sources */,
+				18F2CAA124590EA7002B23D9 /* GMLUIRouterTask.swift in Sources */,
+				18F2CA5224581B13002B23D9 /* GMLRouterDefines.swift in Sources */,
+				18F2CA502458167F002B23D9 /* GMLRouterResult.swift in Sources */,
+				18F2CA392457CC2B002B23D9 /* AppDelegate.swift in Sources */,
+				18F2CA4E24581242002B23D9 /* GMLRouterTask.swift in Sources */,
+				18F2CA5424581C31002B23D9 /* GMLRouterDelegate.swift in Sources */,
+				18F2CA362457CC2B002B23D9 /* ViewController.swift in Sources */,
+				18F2CA58245829C5002B23D9 /* GMLRouterServiceRule.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18F2CA0C2457CBFA002B23D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18F2CA152457CBFA002B23D9 /* GMLRouterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18F2CA172457CBFA002B23D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18F2CA202457CBFA002B23D9 /* GMLRouterUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18F2CA5924582A0D002B23D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18F2CA6424582A0E002B23D9 /* ViewController.swift in Sources */,
+				18F2CA9D2458306D002B23D9 /* HomeRouterService.swift in Sources */,
+				18F2CA6024582A0E002B23D9 /* AppDelegate.swift in Sources */,
+				18F2CA9124582A34002B23D9 /* GMLRouterTask.swift in Sources */,
+				18F2CA9024582A34002B23D9 /* GMLRouterDefines.swift in Sources */,
+				18F2CA9B2458301C002B23D9 /* MyVC.swift in Sources */,
+				18F2CA9F24583085002B23D9 /* MyRouterService.swift in Sources */,
+				18F2CA9324582A34002B23D9 /* GMLRouterResult.swift in Sources */,
+				18F2CA8E24582A34002B23D9 /* GMLRouterDelegate.swift in Sources */,
+				18F2CA8F24582A34002B23D9 /* GMLRouterProtocol.swift in Sources */,
+				18F2CA6224582A0E002B23D9 /* SceneDelegate.swift in Sources */,
+				18F2CA8D24582A2E002B23D9 /* GMLRouter.swift in Sources */,
+				18F2CA9924582FFD002B23D9 /* HomeVC.swift in Sources */,
+				18F2CA9224582A34002B23D9 /* GMLRouterServiceRule.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18F2CA6E24582A15002B23D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18F2CA7724582A15002B23D9 /* GMLRouterForIphoneTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18F2CA7924582A15002B23D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18F2CA8224582A16002B23D9 /* GMLRouterForIphoneUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18F2CA122457CBFA002B23D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18F2C9FD2457CBF3002B23D9 /* GMLRouter */;
+			targetProxy = 18F2CA112457CBFA002B23D9 /* PBXContainerItemProxy */;
+		};
+		18F2CA1D2457CBFA002B23D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18F2C9FD2457CBF3002B23D9 /* GMLRouter */;
+			targetProxy = 18F2CA1C2457CBFA002B23D9 /* PBXContainerItemProxy */;
+		};
+		18F2CA7424582A15002B23D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18F2CA5C24582A0D002B23D9 /* GMLRouterForIphone */;
+			targetProxy = 18F2CA7324582A15002B23D9 /* PBXContainerItemProxy */;
+		};
+		18F2CA7F24582A16002B23D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18F2CA5C24582A0D002B23D9 /* GMLRouterForIphone */;
+			targetProxy = 18F2CA7E24582A16002B23D9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18F2CA302457CC2B002B23D9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18F2CA312457CC2B002B23D9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18F2CA6524582A0E002B23D9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18F2CA6624582A0E002B23D9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18F2CA6A24582A14002B23D9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18F2CA6B24582A14002B23D9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18F2CA222457CBFA002B23D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		18F2CA232457CBFA002B23D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		18F2CA252457CBFA002B23D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = GMLRouterDemo/GMLRouter.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 29W9687J6A;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = GMLRouterDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.YM.GMLRouter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		18F2CA262457CBFA002B23D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = GMLRouterDemo/GMLRouter.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 29W9687J6A;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = GMLRouterDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.YM.GMLRouter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		18F2CA282457CBFA002B23D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 29W9687J6A;
+				INFOPLIST_FILE = GMLRouterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.YM.GMLRouterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GMLRouter.app/Contents/MacOS/GMLRouter";
+			};
+			name = Debug;
+		};
+		18F2CA292457CBFA002B23D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 29W9687J6A;
+				INFOPLIST_FILE = GMLRouterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.YM.GMLRouterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GMLRouter.app/Contents/MacOS/GMLRouter";
+			};
+			name = Release;
+		};
+		18F2CA2B2457CBFA002B23D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 29W9687J6A;
+				INFOPLIST_FILE = GMLRouterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.YM.GMLRouterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = GMLRouter;
+			};
+			name = Debug;
+		};
+		18F2CA2C2457CBFA002B23D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 29W9687J6A;
+				INFOPLIST_FILE = GMLRouterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.YM.GMLRouterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = GMLRouter;
+			};
+			name = Release;
+		};
+		18F2CA8524582A16002B23D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 29W9687J6A;
+				INFOPLIST_FILE = GMLRouterForIphone/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.YM.GMLRouterForIphone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18F2CA8624582A16002B23D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 29W9687J6A;
+				INFOPLIST_FILE = GMLRouterForIphone/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.YM.GMLRouterForIphone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18F2CA8824582A16002B23D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 29W9687J6A;
+				INFOPLIST_FILE = GMLRouterForIphoneTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.YM.GMLRouterForIphoneTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GMLRouterForIphone.app/GMLRouterForIphone";
+			};
+			name = Debug;
+		};
+		18F2CA8924582A16002B23D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 29W9687J6A;
+				INFOPLIST_FILE = GMLRouterForIphoneTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.YM.GMLRouterForIphoneTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GMLRouterForIphone.app/GMLRouterForIphone";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18F2CA8B24582A16002B23D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 29W9687J6A;
+				INFOPLIST_FILE = GMLRouterForIphoneUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.YM.GMLRouterForIphoneUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GMLRouterForIphone;
+			};
+			name = Debug;
+		};
+		18F2CA8C24582A16002B23D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 29W9687J6A;
+				INFOPLIST_FILE = GMLRouterForIphoneUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.YM.GMLRouterForIphoneUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GMLRouterForIphone;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18F2C9F92457CBF3002B23D9 /* Build configuration list for PBXProject "GMLRouter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18F2CA222457CBFA002B23D9 /* Debug */,
+				18F2CA232457CBFA002B23D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18F2CA242457CBFA002B23D9 /* Build configuration list for PBXNativeTarget "GMLRouter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18F2CA252457CBFA002B23D9 /* Debug */,
+				18F2CA262457CBFA002B23D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18F2CA272457CBFA002B23D9 /* Build configuration list for PBXNativeTarget "GMLRouterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18F2CA282457CBFA002B23D9 /* Debug */,
+				18F2CA292457CBFA002B23D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18F2CA2A2457CBFA002B23D9 /* Build configuration list for PBXNativeTarget "GMLRouterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18F2CA2B2457CBFA002B23D9 /* Debug */,
+				18F2CA2C2457CBFA002B23D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18F2CA8424582A16002B23D9 /* Build configuration list for PBXNativeTarget "GMLRouterForIphone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18F2CA8524582A16002B23D9 /* Debug */,
+				18F2CA8624582A16002B23D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18F2CA8724582A16002B23D9 /* Build configuration list for PBXNativeTarget "GMLRouterForIphoneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18F2CA8824582A16002B23D9 /* Debug */,
+				18F2CA8924582A16002B23D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18F2CA8A24582A16002B23D9 /* Build configuration list for PBXNativeTarget "GMLRouterForIphoneUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18F2CA8B24582A16002B23D9 /* Debug */,
+				18F2CA8C24582A16002B23D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18F2C9F62457CBF3002B23D9 /* Project object */;
+}
